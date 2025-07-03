@@ -1,13 +1,13 @@
 
 # 📊 Customer Sales Analysis – Data Analyst Portfolio Project
 
-This project showcases how data analysis can optimize business strategy by uncovering insights from customer sales behavior. Using SQL-style data extraction, Python for transformation, and matplotlib/seaborn for visualization, it replicates a real-world Data Analyst workflow across 8 customer databases.
+This project showcases how data analysis can optimize business strategy by uncovering insights from customer sales behavior. Using SQL-style data extraction, Python for transformation and matplotlib/seaborn for visualization, it replicates a real-world  workflow across 8 customer databases.
 
 ## 🧠 Key Highlights
 
 - Extracted and merged data from 8 simulated sales systems into one pipeline
 - Cleaned and transformed records with pandas (Python)
-- Built weekly trend charts, product sales summaries, and churn signals
+- Built weekly trend charts, product sales summaries and churn signals
 - Enabled business teams to identify underperforming regions and top customers
 
 ## 📁 Folder Structure
@@ -19,7 +19,7 @@ customer-sales-analysis/
 ├── notebooks/
 │   └── sales_analysis.ipynb
 ├── dashboard/
-│   └── [Upload screenshots or visualizations here]
+│   └── customers_sales_analysis.pbix
 ├── README.md
 └── requirements.txt
 ```
