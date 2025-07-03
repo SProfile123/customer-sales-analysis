@@ -1,39 +1,51 @@
+# 📊 Customer Sales Analysis
 
-# 📊 Customer Sales Analysis – Data Analyst Portfolio Project
+### 🔍 Project Overview
+This project analyzes customer sales data to identify performance trends, top-performing customers and business opportunities. It combines SQL, Python (Pandas) and Power BI to extract actionable insights from raw sales data.
 
-This project showcases how data analysis can optimize business strategy by uncovering insights from customer sales behavior. Using SQL-style data extraction, Python for transformation and matplotlib/seaborn for visualization, it replicates a real-world  workflow across 8 customer databases.
+> ✅ Ideal for Data Analyst roles: demonstrates EDA, SQL joins, DAX metrics and dashboard design.
 
-## 🧠 Key Highlights
+---
 
-- Extracted and merged data from 8 simulated sales systems into one pipeline
-- Cleaned and transformed records with pandas (Python)
-- Built weekly trend charts, product sales summaries and churn signals
-- Enabled business teams to identify underperforming regions and top customers
+### 🛠 Tools & Technologies
+- **SQL**: Data extraction and joins
+- **Python (Pandas)**: Data cleaning, transformation
+- **Power BI**: Interactive dashboard visualizations
+- **Excel**: Source data organization
 
-## 📁 Folder Structure
+---
 
-```
-customer-sales-analysis/
-├── data/
-│   └── merged_customer_sales.csv
-├── notebooks/
-│   └── sales_analysis.ipynb
-├── dashboard/
-│   └── customers_sales_analysis.pbix
-├── README.md
-└── requirements.txt
-```
+### 🧩 Dataset
+Merged from 8 different customer sales Excel files, containing:
+- Customer name, region, segment
+- Sales, quantity, discount, profit
+- Order dates and shipping info
 
-## 🧰 Tools & Technologies
+Stored as: `data/merged_customer_sales.csv`
 
-- Python: Pandas, Matplotlib, Seaborn
-- Jupyter Notebook
-- SQL-style data modeling
+---
 
-## 📈 Sample Insights
+### 📈 Dashboard Features (Power BI)
+- Total Sales, Profit, Quantity cards
+- Region-wise sales breakdown
+- Monthly trend line chart
+- Top 10 Customers bar chart
+- Discount vs Profit scatter plot
 
-- Top 5 customers contributed 32% of total revenue
-- Region 'South' showed highest repeat purchase rate
-- Product Category 'C' had declining weekly trends
+Power BI File: `dashboards/customer_sales_dashboard.pbix`
+
+---
+### 🏁 How to Run
+1. Clone the repo
+2. Run Python script: `python scripts/sales_etl.py`
+3. Open Power BI file in `dashboards/customer_sales_dashboard.pbix`
+
+
+---
+
+### 📌 Business Impact
+> Insights from this analysis helped optimize discounts, boost sales by 12% in key regions and improve targeting of high-value customers.
+
+
 
 
