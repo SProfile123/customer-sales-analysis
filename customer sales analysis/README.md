@@ -3,8 +3,6 @@
 ### 🔍 Project Overview
 This project analyzes customer sales data to identify performance trends, top-performing customers and business opportunities. It combines SQL, Python (Pandas) and Power BI to extract actionable insights from raw sales data.
 
-> ✅ Ideal for Data Analyst roles: demonstrates EDA, SQL joins, DAX metrics and dashboard design.
-
 ---
 
 ### 🛠 Tools & Technologies
